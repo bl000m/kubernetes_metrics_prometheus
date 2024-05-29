@@ -28,6 +28,7 @@ metadata:
 spec:
   ports:
   - port: 3000
+    name: web
     targetPort: 3000
   selector:
     app: node-app
